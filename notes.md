@@ -13,7 +13,11 @@
 - 66267 approx. cycles gouraud shaded triangle
 
 ## Stack located in fast RAM
-- 64774 approx. cycles textures triangle (~126.2% faster)
+- 64774 approx. cycles textured triangle (~126.2% faster)
 - 59338 approx. cycles gouraud shaded triangle (~111.7% faster)
 In the current build the stack never exceeds 60 bytes in size.
 Reserving memory range 0xE30B00 to 0xE30BFC for stack memory would be optimal.
+
+## Latest times
+- 53788 approx. cycles textured triangle (~120.4% faster)
+- 38942 approx. cycles gouraud shaded triangle (~152.4% faster)
