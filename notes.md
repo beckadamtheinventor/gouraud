@@ -1,6 +1,6 @@
 
 # Relocated code offsets and sizes in fast RAM
-- 0x000: 128 (0x080) bytes of I'm not sure why this isn't being used
+- 0x000: 128 (0x080) bytes used for dynamically written code?
 - 0x080: 157 (0x09D) bytes Textured Triangle shader
 - 0x120:  59 (0x03B) bytes Gouraud Triangle shader
 - 0x160: 416 (0x1A0) bytes unused
